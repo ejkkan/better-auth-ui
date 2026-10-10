@@ -8,7 +8,8 @@
   },
   "files": [
     "src",
-    "dist"
+    "dist",
+    "skills"
   ],
   "exports": {
     ".": {
@@ -88,5 +89,8 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "tanstack-intent"
+  ]
 }

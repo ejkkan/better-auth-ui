@@ -37,6 +37,16 @@ skills:
       - packages/heroui/src/styles.css
       - apps/docs/content/docs/heroui/index.mdx
       - apps/docs/content/docs/heroui/plugins/organization.mdx
+  - name: better-auth-ui-react-native
+    package: packages/react-native
+    path: packages/react-native/skills/better-auth-ui-react-native/SKILL.md
+    sources:
+      - packages/react-native/src/components/auth/auth-provider.tsx
+      - packages/react-native/src/navigation/types.ts
+      - packages/react-native/src/navigation/expo-router-adapter.ts
+      - packages/react-native/src/navigation/react-navigation-adapter.ts
+      - packages/react-native/src/plugins.ts
+      - packages/react-native/README.md
   - name: better-auth-ui-localization
     package: packages/locales
     path: packages/locales/skills/better-auth-ui-localization/SKILL.md

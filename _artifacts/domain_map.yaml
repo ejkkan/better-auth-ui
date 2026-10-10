@@ -29,6 +29,13 @@ domains:
       - Use the primitive provider and omit HeroUI navigation or error presentation.
       - Omit the Better Auth UI stylesheet or assume it replaces HeroUI styles.
       - Apply HeroUI v2 contracts to HeroUI v3 components.
+  - name: Native authentication interfaces
+    slug: react-native
+    failure_modes:
+      - Use the shared React provider or a navigate callback instead of the native provider's navigation adapter.
+      - Import HeroUI web components or plugins into a native application.
+      - Map no screen for a reachable view or omit the token and slug route params.
+      - Assume web-only plugin surfaces or sign-up additional fields exist on native.
   - name: Localization
     slug: localization
     failure_modes:
@@ -49,6 +56,9 @@ skills:
   - slug: better-auth-ui-heroui
     packages: ["@better-auth-ui/heroui"]
     domain: heroui
+  - slug: better-auth-ui-react-native
+    packages: ["@better-auth-ui/react-native"]
+    domain: react-native
   - slug: better-auth-ui-localization
     packages: ["@better-auth-ui/locales"]
     domain: localization
